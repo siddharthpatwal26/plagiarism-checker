@@ -6,6 +6,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
 import { useTheme } from '../context/ThemeContext';
 import { FiDownload, FiArrowLeft, FiAlertTriangle, FiCheckCircle, FiInfo } from 'react-icons/fi';
+import HighlightedText from '../components/HighlightedText';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
