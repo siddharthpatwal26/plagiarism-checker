@@ -14,13 +14,22 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
-    "axios": "^1.16.0",
-    "crypto": "^1.0.1",
+    "dependencies": {
+    "axios": "^1.16.1",
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
     "express-rate-limit": "^8.5.2",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.1",
+    "multer": "^2.1.1",
     "nodemailer": "^8.0.7",
-    "react-loading-skeleton": "^3.5.0",
-    "react-router-dom": "^7.14.2"
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "concurrently": "^9.2.1"
